@@ -27,11 +27,11 @@ version control system, or the continuous integration pipeline.
 **[2]** We can get repo analysis by Mypy command : **"-m mypy path-of-repo-or-sw"**<br>
 
 ![image](https://user-images.githubusercontent.com/84991028/227472022-595608c0-209d-4b8b-a465-e085cf9e0d94.png)<br>
-Error : [IMPORT] **Library stub not installed is error** for not installing required python libraries which is vary for all systems whereas it is installed or not.<br>
-Error : [IMPORT] **Skipped analyzing "lib_name"** due to library for that part is not installed.<br>
+**Error** : [Import] **Library stub not installed is error** for not installing required python libraries which is vary for all systems whereas it is installed or not.<br>
+**Error** : [Import] **Skipped analyzing "lib_name"** due to library for that part is not installed.<br>
 ![image](https://user-images.githubusercontent.com/84991028/227476818-1ff899f5-022a-4c3b-8edc-67a041fab046.png)
-Error : [Valid-Type] **Function "Func_name" is not as valid type** is would be due to wrong return type.<br>
-Error : [Operator] **Unsupported operand type for unary - (np.array?)"** is due to wrong use of operators.<br>
+**Error** : [Valid-Type] **Function "Func_name" is not as valid type** is would be due to wrong return type.<br>
+**Erro**r : [Operator] **Unsupported operand type for unary - (np.array?)"** is due to wrong use of operators.<br>
 ![image](https://user-images.githubusercontent.com/84991028/227472246-32647a60-17f4-42ff-9ea0-1e189737d040.png)<br>
 Error :  **Duplicate module named "main"** (also at "Python_master_3\Python-master\Extract-Table-from-pdf-txt-docx\main.py") is due to duplicate main modules.<br>
 
