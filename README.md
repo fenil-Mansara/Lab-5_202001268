@@ -24,7 +24,7 @@ version control system, or the continuous integration pipeline.
 ![image](https://user-images.githubusercontent.com/84991028/227472132-71ddc530-776b-4f58-90d8-21eabbd4ba0b.png)
 <br>
 
-**[2]** We can get repo analysis by Mypy command : **"-m mypy path-of-repo-or-sw"**<br>
+**[2]** We can get repo analysis by Mypy command : **"-m mypy `<path-of-repo-or-file>`"**<br>
 
 ![image](https://user-images.githubusercontent.com/84991028/227472022-595608c0-209d-4b8b-a465-e085cf9e0d94.png)<br>
 **Error** : [Import] **Library stub not installed is error** for not installing required python libraries which is vary for all systems whereas it is installed or not.<br>
@@ -33,9 +33,9 @@ version control system, or the continuous integration pipeline.
 **Error** : [Valid-Type] **Function "Func_name" is not as valid type** is would be due to wrong return type.<br>
 **Erro**r : [Operator] **Unsupported operand type for unary - (np.array?)"** is due to wrong use of operators.<br>
 ![image](https://user-images.githubusercontent.com/84991028/227472246-32647a60-17f4-42ff-9ea0-1e189737d040.png)<br>
-Error :  **Duplicate module named "main"** (also at "Python_master_3\Python-master\Extract-Table-from-pdf-txt-docx\main.py") is due to duplicate main modules.<br>
+**Error** :  **Duplicate module named "main"** (also at "Python_master_3\Python-master\Extract-Table-from-pdf-txt-docx\main.py") is due to duplicate main modules.<br>
 
-**[3]** Mypy can only analysis errors for Python language, other languages are not supported for this tools.<br>
+**[3]** Mypy can only analysis errors for Python language, other languages are not supported for this tools.<br><br>
 ![image](https://user-images.githubusercontent.com/84991028/227472943-db44415f-cc2c-43bb-bd47-0799f0429056.png)<br>
 
 
